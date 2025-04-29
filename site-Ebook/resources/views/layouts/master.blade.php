@@ -19,6 +19,12 @@
     <link href="{{ asset('frontend/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('frontend/assets/css/argon-dashboard.css') }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/assets/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.10.0/dist/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <link rel="stylesheet" href="{{ asset('admin/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css') }}">
+
 </head>
 
 <body class="{{ $class ?? '' }}">
@@ -51,6 +57,29 @@
     <script src="{{ asset('frontend/assets/js/core/bootstrap.min.js')  }}"></script>
     <script src="{{ asset('frontend/assets/js/plugins/perfect-scrollbar.min.js')  }}"></script>
     <script src="{{ asset('frontend/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/vendor/jquery-migrate-3.3.0.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/vendor/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/waypoints.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/wow.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/magnific-popup.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/select2.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/isotope.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/scrollup.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/Font-Awesome.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/plugins/counterup.js') }}"></script>
+    <script src="{{ asset('admin/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/noUISlider.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/slider.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.10.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.2.0/classic/ckeditor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/goodshare.js@6/goodshare.min.js"></script>
+    <script src="{{ asset('frontend/assets/js/main.js?v=4.1') }}"></script>
     <script>
         var win = navigator.platform.indexOf('Win') > -1;
         if (win && document.querySelector('#sidenav-scrollbar')) {

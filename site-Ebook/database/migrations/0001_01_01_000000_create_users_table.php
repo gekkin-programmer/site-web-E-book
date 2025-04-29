@@ -17,8 +17,10 @@ return new class extends Migration
             $table->string('prenom')->nullable();
             $table->integer('age')->nullable();
             $table->string('pays')->nullable();
+            $table->string('state')->nullable();
             $table->string('ville')->nullable();
-            $table->string('address')->nullable();
+            $table->string('address1')->nullable();
+            $table->string('address2')->nullable();
             $table->integer('numero')->nullable();
             $table->string('email')->nullable();
             $table->string('profession')->nullable();
