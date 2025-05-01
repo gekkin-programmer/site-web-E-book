@@ -11,12 +11,17 @@
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet">
+      <link rel="shortcut icon" href="{{ asset ('frontend/assets/favicon.svg') }}" type="image/svg+xml">
     <!-- Nucleo Icons -->
     <link href="{{ asset('frontend/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('frontend/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-    <link href="{{ asset('frontend/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('frontend/assets/css/argon-dashboard.css') }}" rel="stylesheet" />
     <link href="{{ asset('frontend/assets/css/all.min.css') }}" rel="stylesheet">
@@ -80,6 +85,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/goodshare.js@6/goodshare.min.js"></script>
     <script src="{{ asset('frontend/assets/js/main.js?v=4.1') }}"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script>
         var win = navigator.platform.indexOf('Win') > -1;
         if (win && document.querySelector('#sidenav-scrollbar')) {
