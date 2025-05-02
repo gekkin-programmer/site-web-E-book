@@ -367,6 +367,174 @@
 
                 </div>
             </section>
+             <!--
+            - #CATEGORIES LIVRES
+          -->
+
+          <section class="section achievement" id="achievements" aria-label="achievement">
+            <div class="container">
+
+                <p class="section-subtitle">Livres</p>
+
+                <h2 class="h2 section-title has-underline">
+                    Categories De Livres
+                    <span class="span has-before"></span>
+                </h2>
+
+                <<ul class="grid-list">
+
+            <li>
+              <div class="achievement-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+                  <img src="{{ asset ('frontend/assets/img/literature.jpg') }}" width="450" height="300" loading="lazy" alt="Nominated"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
+                    class="abs-img"> -->
+
+                  <h3 class="h3 card-title">Literature Classique</h3>
+
+                  <p class="card-text">
+                    Decouvrez des livres tel que des Romans francais , literature mondial  classique du XIX siecle
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="achievement-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+                  <img src="{{ asset('frontend/assets/img/science.jpg') }}" width="450" height="300" loading="lazy" alt="Winner"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
+                    class="abs-img"> -->
+
+                  <h3 class="h3 card-title">Science Fiction & Fantasie</h3>
+
+                  <p class="card-text">
+                    Plongez dans des oeuvres fascinant tel que Cyberpunk , Heroic Fantasy et Space Opera
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="achievement-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+                  <img src="{{ asset ('frontend/assets/img/horreur.jpg')}}" width="450" height="300" loading="lazy"
+                    alt="Guest of Honor" class="img-cover">
+                </figure>
+
+                <a href="{{ route('horreur') }}" class="card content">
+                <div class="card-content">
+
+                  <!-- <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
+                    class="abs-img"> -->
+
+                  <h3 class="h3 card-title">Horreur & Surnaturel</h3>
+
+                  <p class="card-text">
+                    Frissoner face a des livres d'horreur et de surnaturel tel que stephen king et lovercraft
+                  </p>
+
+                </div>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="achievement-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+                  <img src="{{ asset('frontend/assets/img/development.jpg') }}" width="450" height="300" loading="lazy" alt="Finalist"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
+                    class="abs-img"> -->
+
+                  <h3 class="h3 card-title">Development Personnel</h3>
+
+                  <p class="card-text">
+                    Aprendre a Avoir le controle sur la gestion du temps , leadership et Mindset avec cette game de livres
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="achievement-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+                  <img src="{{ asset('frontend/assets/img/science.jpg')}}" width="450" height="300" loading="lazy" alt="Winner"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!--<img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
+                    class="abs-img"> -->
+
+                  <h3 class="h3 card-title">Sciences</h3>
+
+                  <p class="card-text">
+                    Oh la science un aspect incontournable dans cette generation , prenez du parfums dans des domaines divers
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="achievement-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+                  <img src="{{ asset('frontend/assets/img/bible.jpg')}}" width="450" height="300" loading="lazy" alt="Nominated"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!--img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
+                    class="abs-img"> -->
+
+                  <h3 class="h3 card-title">Religion</h3>
+
+                  <p class="card-text">
+                    Illuminez vos ideer a travers diverse religion tel que le christianisme , islam , bouddhisme
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul> -->
+
+            </div>
+        </section>
+
+
 
 
 
@@ -608,178 +776,6 @@
             </section>
 
 
-
-
-
-            <!--
-            - #ACHIEVEMENT
-          -->
-
-            <section class="section achievement" id="achievements" aria-label="achievement">
-                <div class="container">
-
-                    <p class="section-subtitle">Achievements</p>
-
-                    <h2 class="h2 section-title has-underline">
-                        Honor & Awards Achieved
-                        <span class="span has-before"></span>
-                    </h2>
-
-                    <!-- <ul class="grid-list">
-
-                <li>
-                  <div class="achievement-card">
-
-                    <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                      <img src="./assets/images/achievement-1.jpg" width="450" height="300" loading="lazy" alt="Nominated"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-content">
-
-                      <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                        class="abs-img">
-
-                      <h3 class="h3 card-title">Nominated</h3>
-
-                      <p class="card-text">
-                        International Thriller Writers Award for Best Novel (These Toxic Things)
-                      </p>
-
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="achievement-card">
-
-                    <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                      <img src="./assets/images/achievement-2.jpg" width="450" height="300" loading="lazy" alt="Winner"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-content">
-
-                      <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                        class="abs-img">
-
-                      <h3 class="h3 card-title">Winner</h3>
-
-                      <p class="card-text">
-                        International Thriller Writers Award for Best Novel (These Toxic Things)
-                      </p>
-
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="achievement-card">
-
-                    <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                      <img src="./assets/images/achievement-3.jpg" width="450" height="300" loading="lazy"
-                        alt="Guest of Honor" class="img-cover">
-                    </figure>
-
-                    <div class="card-content">
-
-                      <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                        class="abs-img">
-
-                      <h3 class="h3 card-title">Guest of Honor</h3>
-
-                      <p class="card-text">
-                        International Thriller Writers Award for Best Novel (These Toxic Things)
-                      </p>
-
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="achievement-card">
-
-                    <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                      <img src="./assets/images/achievement-4.jpg" width="450" height="300" loading="lazy" alt="Finalist"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-content">
-
-                      <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                        class="abs-img">
-
-                      <h3 class="h3 card-title">Finalist</h3>
-
-                      <p class="card-text">
-                        International Thriller Writers Award for Best Novel (These Toxic Things)
-                      </p>
-
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="achievement-card">
-
-                    <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                      <img src="./assets/images/achievement-5.jpg" width="450" height="300" loading="lazy" alt="Winner"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-content">
-
-                      <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                        class="abs-img">
-
-                      <h3 class="h3 card-title">Winner</h3>
-
-                      <p class="card-text">
-                        International Thriller Writers Award for Best Novel (These Toxic Things)
-                      </p>
-
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="achievement-card">
-
-                    <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                      <img src="./assets/images/achievement-1.jpg" width="450" height="300" loading="lazy" alt="Nominated"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-content">
-
-                      <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                        class="abs-img">
-
-                      <h3 class="h3 card-title">Nominated</h3>
-
-                      <p class="card-text">
-                        International Thriller Writers Award for Best Novel (These Toxic Things)
-                      </p>
-
-                    </div>
-
-                  </div>
-                </li>
-
-              </ul> -->
-
-                </div>
-            </section>
-
-
-
-
-
             <!--
             - #CONTACT
           -->
@@ -877,6 +873,7 @@
                     </div>
 
                 </div>
+
             </section>
 
         </article>

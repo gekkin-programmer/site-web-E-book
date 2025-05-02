@@ -10,6 +10,7 @@
         Argon Dashboard 2 by Creative Tim
     </title>
     <!--     Fonts and icons     -->
+    <link href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')" rel="stylesheet">;
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +27,7 @@
     <link id="pagestyle" href="{{ asset('frontend/assets/css/argon-dashboard.css') }}" rel="stylesheet" />
     <link href="{{ asset('frontend/assets/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{  asset('frontend/assets/css/horreur.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.10.0/dist/css/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
     <link rel="stylesheet" href="{{ asset('admin/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css') }}">
@@ -58,6 +60,7 @@
     @endauth
 
     <!--   Core JS Files   -->
+    <script src="{{ asset('frontend/assets/js/horreur.js')}}"></script>
     <script src="{{ asset('frontend/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/core/bootstrap.min.js')  }}"></script>
     <script src="{{ asset('frontend/assets/js/plugins/perfect-scrollbar.min.js')  }}"></script>
