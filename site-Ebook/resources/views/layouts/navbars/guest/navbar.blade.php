@@ -11,27 +11,27 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#benefits" class="navbar-link" data-nav-link>Benefice</a>
+            <a href="#benefits" class="navbar-link" data-nav-link>Chapitre</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#chapters" class="navbar-link" data-nav-link>Chapitre</a>
+            <a href="#chapters" class="navbar-link" data-nav-link>Prix</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#pricing" class="navbar-link" data-nav-link>Prix</a>
+            <a href="#pricing" class="navbar-link" data-nav-link>Autheur</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#author" class="navbar-link" data-nav-link>Autheur</a>
+            <a href="#author" class="navbar-link" data-nav-link>Achievements</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#achievements" class="navbar-link" data-nav-link>Achievements</a>
+            <a href="#achievements" class="navbar-link" data-nav-link>Contact</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            <a href="#setting" class="navbar-link" data-nav-link><ion-icon name="settings-outline" style="font-size: 20px"></ion-icon></a>
           </li>
 
         </ul>

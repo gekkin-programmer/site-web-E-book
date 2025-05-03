@@ -383,7 +383,10 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--old-rose); }
+.navbar-link:is(:hover, :focus) { color: var(); }
+.navbar .navbar-list .navbar-link:hover{
+    background-color: var(--white);
+}
 
 
 
@@ -664,12 +667,21 @@ body {
   overflow: hidden;
   transition: var(--transition-2);
 }
+.achievement-card a{
+    background-color: var(--seashell);
+}
+.achievement-card a:hover{
+    background-color: var(--seashell);
+}
 
 .achievement-card:is(:hover, :focus-within) { transform: translateY(-10px); }
 
 .achievement-card .card-content {
   position: relative;
   padding: 15px;
+}
+.achievement-card .card-content:hover{
+    color: var(--sonic-silver);
 }
 
 .achievement-card .abs-img {

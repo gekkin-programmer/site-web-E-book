@@ -17,7 +17,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet">
-      <link rel="shortcut icon" href="{{ asset ('frontend/assets/favicon.svg') }}" type="image/svg+xml">
+      <!--<link rel="shortcut icon" href="{{ asset ('frontend/assets/favicon.svg') }}" type="image/svg+xml">-->
     <!-- Nucleo Icons -->
     <link href="{{ asset('frontend/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('frontend/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
