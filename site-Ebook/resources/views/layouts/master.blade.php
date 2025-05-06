@@ -25,6 +25,7 @@
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('frontend/assets/css/argon-dashboard.css') }}" rel="stylesheet" />
+    <link href="{{ asset('frontend/assets/css/cart.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
     <link href="{{  asset('frontend/assets/css/horreur.css')}}" rel="stylesheet">
@@ -60,6 +61,7 @@
     @endauth
 
     <!--   Core JS Files   -->
+    <script src="{{ asset('frontend/assets/js/cart.js')}}"></script>
     <script src="{{ asset('frontend/assets/js/horreur.js')}}"></script>
     <script src="{{ asset('frontend/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/core/bootstrap.min.js')  }}"></script>

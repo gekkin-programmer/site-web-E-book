@@ -54,7 +54,7 @@
                     <div class="grid-list">
 
                         <li class="benefits-content">
-                            <h2 class="h2 section-title">Ce que vous accomplirez grâce à ce livre</h2>
+                            <h2 class="h2 section-title">Ce que vous accomplirez grâce à nos livre</h2>
 
                             <p class="section-text">Pourqoui acheter vos E-book chez nous ?</p>
                         </li>
@@ -74,9 +74,9 @@
                                 </p>
 
                                 <a href="#" class="btn-link">
-                                    <span class="span">Read more</span>
 
-                                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
+                                   
                                 </a>
 
                             </div>
@@ -98,9 +98,8 @@
                                 </p>
 
                                 <a href="#" class="btn-link">
-                                    <span class="span">En savoir plus</span>
 
-                                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
                                 </a>
 
                             </div>
@@ -122,9 +121,8 @@
                                 </p>
 
                                 <a href="#" class="btn-link">
-                                    <span class="span">En Savoir plus</span>
 
-                                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
                                 </a>
 
                             </div>
@@ -146,9 +144,8 @@
                                 </p>
 
                                 <a href="#" class="btn-link">
-                                    <span class="span">En Savoir plus</span>
 
-                                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
                                 </a>
 
                             </div>
@@ -170,9 +167,8 @@
                                 </p>
 
                                 <a href="#" class="btn-link">
-                                    <span class="span">En Savoir plus</span>
 
-                                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
                                 </a>
 
                             </div>
@@ -194,9 +190,9 @@
                                 </p>
 
                                 <a href="#" class="btn-link">
-                                    <span class="span">En Savoir plus</span>
+                                    <!-- <span class="span">En Savoir plus</span>-->
 
-                                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                                    <!-- <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon> -->
                                 </a>
 
                             </div>

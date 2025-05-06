@@ -382,10 +382,16 @@ body {
   line-height: 1.5;
   transition: var(--transition-1);
 }
+.navbar-link:hover{
+    color: #C27A7E;
+}
 
 .navbar-link:is(:hover, :focus) { color: var(); }
 .navbar .navbar-list .navbar-link:hover{
     background-color: var(--white);
+}
+.navbar-item .navbar-link .ion-icon:hover{
+    background-color: aqua;
 }
 
 
@@ -513,6 +519,7 @@ body {
 .benefits-card .card-title { margin-block: 20px 15px; }
 
 .benefits-card .btn-link { margin-block-start: 15px; }
+.benefits-card .btn-link:hover{ background-color: white;}
 
 
 
