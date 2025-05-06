@@ -3,7 +3,7 @@
 
 <main>
 <body>
-    <form method="POST" action="{{ route('checkout.store') }}">
+    <form method="POST" action="{{ route('frontend.checkout.store') }}">
         @csrf
 
         <h2>Customer Information</h2>
@@ -48,4 +48,3 @@
     </form>
 </body>
 @endsection
-
