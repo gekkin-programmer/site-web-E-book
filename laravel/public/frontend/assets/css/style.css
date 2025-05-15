@@ -13,7 +13,8 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
 :root {
 
   /**
@@ -302,7 +303,7 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-.header {
+/*.header {
   background-color: var(--white);
   position: absolute;
   top: 10px;
@@ -322,7 +323,7 @@ body {
   transform: translateY(-100%);
   transition: none;
   animation: slideIn 0.5s ease forwards;
-}
+}*/
 
 @keyframes slideIn {
   0% { transform: translateY(-100%); }
@@ -333,6 +334,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #FFFFFF;
+  border: 2px #C27A7E solid;
+  border-radius: 10px;
 }
 
 .logo {
@@ -384,6 +388,7 @@ body {
 }
 .navbar-link:hover{
     color: #C27A7E;
+
 }
 
 .navbar-link:is(:hover, :focus) { color: var(); }

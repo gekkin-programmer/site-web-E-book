@@ -9,13 +9,14 @@
     <title>
         Argon Dashboard 2 by Creative Tim
     </title>
-    <link href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')" rel="stylesheet">;
+    <link href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
       <link href="{{ asset('frontend/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('frontend/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
@@ -23,7 +24,9 @@
     <link href="{{ asset('frontend/assets/css/cart.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/pop-up.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('resources/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/assets/css/payment.css') }}" rel="stylesheet">
     <link href="{{  asset('frontend/assets/css/horreur.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.10.0/dist/css/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
@@ -52,6 +55,7 @@
     <script src="{{ asset('frontend/assets/js/cart.js')}}"></script>
     <script src="{{ asset('frontend/assets/js/popup.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/horreur.js')}}"></script>
+    <script src="{{ asset('frontend/assets/js/payment.js')}}"></script>
     <script src="{{ asset('frontend/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/core/bootstrap.min.js') }}"></script>
     <script src="{{ asset('frontend/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>

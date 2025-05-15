@@ -1,20 +1,15 @@
 <?php
 
-namespace App\Http\Controllers\Frontend;
+namespace App\Http\Controllers\Frontend;  // Updated namespace
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;  // Base controller
 
-class PaymentController
+class PaymentController extends Controller
 {
-    public function show($order)
+    // Show the payment form
+    public function showPaymentForm()
     {
-        // Logic to show payment details for the given order
-        return view('payment.show', compact('order'));
-    }
-
-    public function process(Request $request, $order)
-    {
-        // Logic to process the payment for the given order
-        return redirect()->route('payment')->with('success', 'Payment processed successfully!');
+        return view('frontend.pages.payment');
     }
 }

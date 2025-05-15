@@ -7,7 +7,7 @@ use App\Http\Controllers\Frontend\CheckoutController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\HorreurController;
 use App\Http\Controllers\Frontend\PaymentController;
-use illuminate\Http\Request;
+use Illuminate\Http\Request;
 
 Route::get('/', function () {
     return view('welcome');
@@ -23,7 +23,10 @@ Route::get('/checkout/{bookId}', [CheckoutController::class, 'showCheckout'])->n
 Route::post('/panier/ajouter', [CartController::class, 'add'])->name('cart.add');
 
 
-Route::get('/payment/{order}', [PaymentController::class, 'show'])->name('payment');
-Route::post('/payment/{order}', [PaymentController::class, 'process'])->name('payment.process');
+
+
+
+// Simple GET route for showing the payment form
+Route::get('/payment', [PaymentController::class, 'showPaymentForm'])->name('payment.form');
 
 
